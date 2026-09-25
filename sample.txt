@@ -1,0 +1,17 @@
+config (
+  server [
+    host "127.0.0.1"   # 地址 (这不是语法括号)
+    port 8080
+  ]
+  features {
+    logging true
+    retry ( a [ b ) c ]
+  }
+  broken [ 1 2
+  stray_close )
+  deep ( [ (
+  /* 块注释
+     跨行 { [ ( */
+  quoted "unclosed string
+)
+tail ]
